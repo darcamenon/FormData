@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="css/estilos.css" />
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <form id="form" action="https://formspree.io/f/xvoloveo" method="POST">
+         <h3>Contacto</h3>
+         <div class="input-div one focus">
+            <div class="i">
+               <i class="fas fa-signature"></i>
+            </div>
+            <div>
+               <h5>Nombres</h5>
+               <input class="input" type="text" id="name" name="nombre" required />
+            </div>
+         </div>
+         <div class="input-div two focus">
+            <div class="i">
+               <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+               <h5>Correo Electrónico</h5>
+               <input class="input" type="email" id="email" name="email" required />
+            </div>
+         </div>
+         <div class="input-div tres focus">
+            <div class="i">
+               <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div>
+               <h5>Teléfono</h5>
+               <input class="input" type="tel" id="phone" name="telefono" required />
+            </div>
+         </div>
+
+
+
+         <textarea id="mensaje" name="mensaje" rows="4" placeholder="Como puedo ayudarle?"></textarea>
+         <button type="submit">Enviar</button>
+      </form>
+   </div>
+
+   <script src="js/alertas.min.js"></script>
+   <script src="https://kit.fontawesome.com/41b156dfc6.js" crossorigin="anonymous"></script>
+   <script src="js/inputStyles.js"></script>
+   <script src="js/form.js"></script>
+</body>
+
+</html>
